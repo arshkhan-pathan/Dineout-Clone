@@ -1,0 +1,17 @@
+.app {
+    margin: 0;
+    font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+        Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root, .app {
+    height: 100%;
+    width: 100%;
+}

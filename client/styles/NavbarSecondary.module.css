@@ -1,0 +1,242 @@
+.body {
+  margin: 0px;
+  font-family: Metropolis, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.inner_page_header {
+  justify-content: space-around;
+}
+
+.header_section1 {
+  width: 90%;
+  height: 70%;
+  display: grid;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: "a b b b c c c c c c d d";
+  justify-content: space-around;
+  box-sizing: border-box;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.logo_section {
+  grid-area: a;
+  /* border: 1px solid magenta; */
+}
+
+.location_section {
+  grid-area: b;
+  margin-left: 20px;
+  width: 80%;
+  border-radius: 5px;
+  font-family: "Metropolis Light";
+  font-style: normal;
+  font-weight: 400;
+  background-color: white;
+}
+
+.select_location {
+  width: 90%;
+  padding: 5px;
+  margin: auto;
+  border: none;
+  outline: none;
+}
+
+.search_section {
+  grid-area: c;
+  width: 90%;
+  padding: 5px 10px;
+  margin-left: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.fa_search {
+  color: #ff645a;
+}
+
+.search_section > input {
+  width: 95%;
+  height: 25px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.search_button {
+  grid-area: d;
+  height: 36px;
+  position: relative;
+  right: 35px;
+  border-radius: 5px;
+}
+
+.search_button > button {
+  width: 70%;
+  height: 100%;
+  background-color: #ff645a;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.header_section2 {
+  width: 100%;
+  height: 40%;
+  box-shadow: 2px 2px 5px gray;
+  background-color: white;
+}
+
+.list {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.list > p:hover {
+  color: #ff645a;
+  cursor: pointer;
+}
+
+.horizontal_line {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
+
+.p {
+  font-family: "Verdana";
+  font-size: 13px;
+}
+
+.pActive {
+  font-family: "Verdana";
+  color: #b90d01;
+}
+
+@media (max-width: 575.98px) {
+  .inner_page_header {
+    height: 150px;
+  }
+
+  .header_section1 {
+    grid-template-areas:
+      "a a a a a a a a a a a a"
+      "b b b b b b b b b b b b"
+      "c c c c c c c c c c c c"
+      "d d d d d d d d d d d d";
+    grid-template-columns: repeat(12, 1fr);
+    margin: 10px auto;
+    width: 95%;
+  }
+
+  .location_section {
+    font-size: 12px;
+    margin-left: 10px;
+    width: 60%;
+  }
+
+  .select_location {
+    width: 70%;
+  }
+
+  .search_section {
+    margin-left: 10px;
+    width: 70%;
+  }
+
+  .fa-search {
+    font-size: 20px;
+  }
+
+  .search_section > input {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  .search_button > button {
+    font-size: 15px;
+  }
+
+  .header_section2 {
+    height: 60%;
+    margin-top: 20px;
+  }
+
+  .list {
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/* For screens between 576px and 767.98px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .inner_page_header {
+    height: 150px;
+  }
+
+  .header_section1 {
+    grid-template-areas:
+      "a a a a b b b b c c c c"
+      "d d d d d d d d d d d d";
+    grid-template-columns: repeat(12, 1fr);
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  .location_section {
+    font-size: 13px;
+    margin-left: 15px;
+    width: 60%;
+  }
+
+  .select_location {
+    width: 70%;
+  }
+
+  .search_section {
+    margin-left: 15px;
+    width: 70%;
+  }
+
+  .fa-search {
+    font-size: 20px;
+  }
+
+  .search_section > input {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .search_button > button {
+    font-size: 16px;
+  }
+
+  .header_section2 {
+    height: 60%;
+    margin-top: 20px;
+  }
+
+  .list {
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

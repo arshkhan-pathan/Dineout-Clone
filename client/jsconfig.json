@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"],
+      // "@images": ["./assets/images/*"],
+      // "@css": ["./assets/css/*"],
+      // "@fonts": ["./assets/fonts/*"],
+      // "@components": ["./components/*"],
+      // "@hooks": ["./hooks/*"],
+      // "@layouts": ["./layouts/*"],
+      // "@pages": ["./pages/*"],
+      // "@sections": ["./sections/*"],
+      // "@store": ["./store/*"],
+      // "@utils": ["./utils/*"],
+    }
+  }
+}
