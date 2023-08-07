@@ -30,3 +30,31 @@ arshkhan.vercel.app
 - Review and Rating System: Customers can provide feedback and ratings for their dining experiences, helping others make informed decisions.
 
 - Restaurant Manager and Admin Dashboard
+## Deployment
+
+To run this project follow steps
+
+
+- Move to client directory to run client side code
+
+
+```bash
+  npm i             // install dependencies
+  npm run dev       // run in project in development mode
+```
+
+- To build project
+
+```bash
+  npm run build        // to build code
+  npm run start        //  to run built code
+```
+
+
+
+- To run backend code , move to server/backend folder
+
+```bash
+    pip install -r requirements.txt        // install dependencies using pip
+    python manage.py runserver            // to run python server
+```
