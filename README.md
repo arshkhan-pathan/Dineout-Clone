@@ -39,15 +39,15 @@ To run this project follow steps
 
 
 ```bash
-  npm i             // install dependencies
-  npm run dev       // run in project in development mode
+  npm i             
+  npm run dev       
 ```
 
 - To build project
 
 ```bash
-  npm run build        // to build code
-  npm run start        //  to run built code
+  npm run build        
+  npm run start        
 ```
 
 
@@ -55,6 +55,6 @@ To run this project follow steps
 - To run backend code , move to server/backend folder
 
 ```bash
-    pip install -r requirements.txt        // install dependencies using pip
-    python manage.py runserver            // to run python server
+    pip install -r requirements.txt
+    python manage.py runserver            
 ```
